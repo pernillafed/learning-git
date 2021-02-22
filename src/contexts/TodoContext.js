@@ -10,8 +10,13 @@ function TodoContextProvider(props) {
         "Order pizza"
     ]);
 
+    const removeTodo = (todo) => {
+        setTodos(todos.filter((t) => t !== todo));
+    };
+
     const values = {
-        todos
+        todos,
+        removeTodo
     };
 
     return (
