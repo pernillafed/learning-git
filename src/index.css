@@ -34,3 +34,15 @@ a {
 a:hover {
   color: lightslategray;
 }
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.todoList {
+  background-color: lightslategray;
+  color: white;
+  padding: 10px 20px;
+}
