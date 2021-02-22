@@ -1,8 +1,10 @@
+import TodoList from "../components/TodoList";
+
 function Home() {
 
     return (
         <div className="home">
-            <h2>Home works!</h2>
+            <TodoList />
         </div>
     )
 
