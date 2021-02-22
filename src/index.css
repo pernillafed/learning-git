@@ -45,4 +45,19 @@ a:hover {
   background-color: lightslategray;
   color: white;
   padding: 10px 20px;
+  text-align: center;
+}
+
+.todo {
+  background-color: #a8b4c0;
+  box-shadow: 2px 2px 5px #555;
+  padding: 5px 50px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.todo:hover {
+  cursor: pointer;
+  background-color: #c5cfd8;
+  text-decoration: line-through;
 }

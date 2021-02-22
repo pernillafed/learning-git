@@ -1,8 +1,8 @@
-function Todo() {
+function Todo(props) {
 
     return (
         <div className="todo">
-            <p>Todo works!</p>
+            <p>{props.todo}</p>
         </div>
     )
 
