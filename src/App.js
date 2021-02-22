@@ -1,4 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom';
+import TodoContextProvider from './contexts/TodoContext';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 
@@ -7,7 +8,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Route exact path="/" component={Home} />
+        <TodoContextProvider>
+          <Route exact path="/" component={Home} />
+        </TodoContextProvider>
       </BrowserRouter>
     </div>
   );
